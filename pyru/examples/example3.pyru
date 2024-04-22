@@ -1,6 +1,0 @@
-# example3.pyru
-
-def greet(name):
-    "Hello, " + name + "!"
-
-print(greet("world"))
