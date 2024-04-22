@@ -1,0 +1,13 @@
+# Pyru Project Requirements
+
+# Pyru development dependencies
+pyru==1.0.0
+pytest==7.5.0
+coverage==6.3.2
+
+# Python dependencies
+flask==2.0.2
+requests==2.26.0
+
+# Ruby gem requirements (if applicable)
+# gem-name==version
