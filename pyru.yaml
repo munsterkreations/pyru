@@ -1,0 +1,42 @@
+pyru:
+  bin:
+    - env ruby.rb
+    - env ruby
+  examples:
+    - example1.py
+    - example2.rb
+    - example3.pyru
+  lib:
+    - pyru_lexer.rb
+    - pyru_parser.rb
+    - pyru_python_bridge.rb
+    - pyru_ruby_bridge.rb
+    - pyru_compiler.rb
+    - pyru.rb
+    - pyru_examples.rb
+  pyru:
+    - __init__.py
+    - conversions.py
+    - exceptions.py
+    - forum.py
+    - pyru_compiler.py
+    - pyru_examples.py
+    - pyru_ide_plugin.py
+    - pyru_importer.py
+    - pyru_lexer.py
+    - pyru_module.py
+    - pyru_parser.py
+    - pyru_python_bridge.py
+    - pyru_ruby_bridge.py
+  css: []
+  bash: []
+readme.md: []
+gemfile: []
+requirements.txt: []
+pyruAPI_Reference.rst: []
+pyru.gemspec: []
+pyruTutorial.rst: []
+pyruDocumentation.rst: []
+syntax.md: []
+pyru_fancy.js: []
+language_structure.md: []

@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require "ruby", "~> 3.2.2"
+require "pyru"
+
+# Your command line interface code goes here...
+
+# Example: Print version
+puts "Pyru version: #{Pyru::VERSION}"
