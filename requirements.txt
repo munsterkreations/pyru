@@ -9,7 +9,7 @@ coverage==6.3.2
 flask==2.0.2
 requests==2.26.0
 
- Ruby gem requirements (if applicable)
+#Ruby gem requirements (if applicable)
 source 'http://rubygems.org'
 
 group :development, :test do
