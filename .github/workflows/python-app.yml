@@ -8,7 +8,6 @@ on:
   pull_request:
     branches:
       - main
-      - release/*
 
 jobs:
   build-and-test:
@@ -79,7 +78,7 @@ jobs:
 
       - name: Build Ruby gem
         run: |
-          gem build your_gem_name.gemspec
+          gem build pyru.gemspec
 
       - name: Publish Python package to PyPI
         uses: pypa/gh-action-pypi-publish@master
