@@ -1,7 +1,7 @@
 # Pyru Project Requirements
 
 # Pyru development dependencies
-pytest==7.5.0
+pytest==5.4.0
 coverage==6.3.2
 
 # Python dependencies
