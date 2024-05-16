@@ -4,10 +4,10 @@ require 'json'
 
 module Pyru_Ruby_Bridge
   class RubyBridge
-    def self.some_ruby_method(arg)
+    def self.ruby_method(arg)
       # Call the actual Ruby method here
-      # For example, assuming `some_ruby_method` is defined in a Ruby library
-      result = some_ruby_method(arg)
+      # For example, assuming `ruby_method` is defined in a Ruby library
+      result = ruby_method(arg)
 
       # Convert the result to Pyru data type
       return PyruRubyBridge::Conversions.ruby_to_pyru(result)
