@@ -11,9 +11,6 @@ requests==2.26.0
 
 #Ruby gem requirements (if applicable)
 #source 'http://rubygems.org'
-
-group :development, :test do
-
 gem 'pyru', '0.1.0'
 gem 'pyru_examples', '0.1.0'
 gem 'pyru_python_bridge', '0.1.0'
