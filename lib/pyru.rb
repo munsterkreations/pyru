@@ -1,6 +1,6 @@
 # pyru.rb
 
-require "pyru/version"
+require "pyru"
 
 module Pyru
   class Error < StandardError; end
