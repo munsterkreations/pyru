@@ -9,5 +9,27 @@ coverage==6.3.2
 flask==2.0.2
 requests==2.26.0
 
-# Ruby gem requirements (if applicable)
-# gem-name==version
+ Ruby gem requirements (if applicable)
+source 'http://rubygems.org'
+
+group :development, :test do
+
+gem 'pyru', '0.1.0'
+gem 'pyru_examples', '0.1.0'
+gem 'pyru_python_bridge', '0.1.0'
+gem 'pyru_compiler', '0.1.0'
+gem 'pyru_lexer', '0.1.0'
+gem 'pyru_parser', '0.1.0'
+gem 'rails', '6.6.0'
+gem 'bundler', '2.3.6'
+gem 'python', '0.0.1'
+gem 'pytest', '7.2.0'
+gem 'pytest-cov', '3.0.0'
+gem 'flake8', '5.0.4'
+gem 'pycodestyle', '2.10.0'
+gem 'black', '22.10.0'
+gem 'isort', '5.12.0'
+gem 'pyru_ruby_bridge', '0.1.0'
+
+
+
