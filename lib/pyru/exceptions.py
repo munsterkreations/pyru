@@ -31,7 +31,7 @@ class RubyException(Exception):
     pass
     # Example usage: Ruby code that may raise an exception
     begin # type: ignore
-raise RubyException "An error occurred in Ruby code."
+raise RubyException ("An error occurred in Ruby code.")
 rescue; RubyException => e # type: ignore
     # Handle the Ruby exception
 puts "Caught Ruby exception: #{e.message}" # type: ignore
