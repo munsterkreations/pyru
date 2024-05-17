@@ -7,7 +7,7 @@ coverage==6.3.2
 # Python dependencies
 flask==2.0.2
 requests==2.26.0
-
+ruby==0.0.2
 
 
 
