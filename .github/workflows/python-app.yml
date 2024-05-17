@@ -69,7 +69,7 @@ jobs:
       - name: Set up Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 2.6.5
 
       - name: Build Ruby gem
         run: |
