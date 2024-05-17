@@ -30,7 +30,7 @@ except PythonException as e:
 try:
     # Ruby code that may raise an exception
    raise RubyException ("An error occurred in Ruby code.")
-rescue; RubyException as e: # type: ignore
+except; RubyException as e: # type: ignore
     # Handle the Ruby exception
 print ("Caught Ruby exception: #{e.message}")# type: ignore
     
