@@ -3,8 +3,8 @@
 # Pyru development dependencies
 pytest==5.4.0
 coverage==6.3.2
-pluggy==-0.13.1
-py==-1.11.0
+pluggy==0.13.1
+py==1.11.0
 
 
 # Python dependencies
