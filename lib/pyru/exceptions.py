@@ -27,12 +27,20 @@ except PythonException as e:
     print("Caught Python exception:", e)
 
  
-class RubyException(Exception):
-    pass
-    # Example usage: Ruby code that may raise an exception
-    begin # type: ignore
-raise RubyException ("An error occurred in Ruby code.")
+try:
+    # Ruby code that may raise an exception
+   raise RubyException ("An error occurred in Ruby code.")
 rescue; RubyException => e # type: ignore
     # Handle the Ruby exception
 puts "Caught Ruby exception: #{e.message}" # type: ignore
+     ruby.execute("""
+        # Your Ruby code here
+        raise RubyException, "An error occurred in Ruby code."
+    """)
+except ruby.RubyError as e:
+    # Handle the Ruby exception
+    print("Caught Ruby exception:", e)
+    # Example usage: Ruby code that may raise an exception
+    begin # type: ignore
+
 end
