@@ -32,6 +32,6 @@ try:
    raise RubyException ("An error occurred in Ruby code.")
 except RubyException as e: # type: ignore
     # Handle the Ruby exception
-print ("Caught Ruby exception: #{e.message}")# type: ignore
+    print ("Caught Ruby exception: #{e.message}")# type: ignore
     
 end
