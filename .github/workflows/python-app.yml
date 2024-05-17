@@ -63,7 +63,8 @@ jobs:
 
       - name: Build Python package
         run: |
-          python setup.py 
+          python setup.py sdist
+          python -m wheel dist/*
 
       - name: Set up Ruby
         uses: actions/setup-ruby@v1
