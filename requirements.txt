@@ -3,12 +3,15 @@
 # Pyru development dependencies
 pytest==5.4.0
 coverage==6.3.2
+Python==3.8.18
+pluggy==-0.13.1
+py==-1.11.0
+
 
 # Python dependencies
 flask==2.0.2
 requests==2.26.0
 ruby==0.0.2
-
-
+Python==3.8.18
 
 
