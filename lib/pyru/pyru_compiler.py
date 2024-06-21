@@ -1,5 +1,7 @@
 py_compile.compile(file, cfile=None, dfile=None, doraise=False, optimize=-1, invalidation_mode=PycInvalidationMode.TIMESTAMP, quiet=0)
 
+__all__ = ["compile_dir","compile_file","compile_path"]
+
 class PyruCompiler:
     def __init__(self, ast):
         self.ast = ast
