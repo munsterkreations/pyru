@@ -18,6 +18,22 @@ Gem::Specification.new do |spec|
     "lib/pyru_compiler.rb",
     "lib/pyru_parser.rb",
     "lib/pyru_lexer.rb",
+    "lib/pyru/__init__.py", 
+    "lib/pyru/conversions.py",
+    " lib/pyru/exceptions.py", 
+    "lib/pyru/forum.py", 
+    "lib/pyru/pyru_compiler.py",
+     "lib/pyru/pyru_examples.py",
+      "lib/pyru/pyru_ide_plugin.py",
+       "lib/pyru/pyru_importer.py",
+        "lib/pyru/pyru_lexer.py",
+        "lib/pyru/pyru_module.py", 
+        "lib/pyru/pyru_parser.py",
+        "lib/pyru/pyru_python_bridge.py",
+         "lib/pyru/pyru_ruby_bridge.py",
+          "lib/pyru/syntax.py",
+           "lib/pyru/test.py",
+            "lib/pyru/tokens.py",
 
 
   ]
