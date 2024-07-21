@@ -1,6 +1,7 @@
-# Pyru
-
+# PYRU
 Pyru is a programming language that combines features of Python and Ruby.
+
+<img src="PYRU.png" alt="pyru-image" style="float: block; margin: auto; align-items:center;" />
 
 ## Installation
 
