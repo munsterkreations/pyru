@@ -1,3 +1,4 @@
+import ruby
 from turtle import begin_fill, begin_poly
 
 
@@ -26,12 +27,10 @@ except PythonException as e:
     print("Caught Python exception:", e)
 
  
-class RubyException(Exception):
-    pass
-    # Example usage: Ruby code that may raise an exception
-    begin # type: ignore
-raise RubyException "An error occurred in Ruby code."
-rescue; RubyException => e # type: ignore
+try:
+    # Ruby code that may raise an exception
+   raise RubyException ("An error occurred in Ruby code.")
+except RubyException as e: # type: ignore
     # Handle the Ruby exception
-puts "Caught Ruby exception: #{e.message}" # type: ignore
-end
+    print ("Caught Ruby exception: #{e.message}")# type: ignore
+    

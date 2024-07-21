@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "pyru"
-  spec.version       = "0.1.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["munsterkreations"]
   spec.email         = ["k7Gp7@example.com"]
   spec.summary       = "Pyru-friendly interface for Ruby libraries"
