@@ -1,6 +1,7 @@
-outline of syntax tokens, lexer, parser, and compiler components for Pyru based on python&Ruby:
+# outline of syntax tokens, lexer, parser, and compiler components for Pyru based on python&Ruby
 
-### Syntax Tokens:
+## Syntax Tokens
+
 1. **Keywords**:
    - `if`, `elif`, `else`
    - `for`, `while`
@@ -26,16 +27,20 @@ outline of syntax tokens, lexer, parser, and compiler components for Pyru based 
 5. **Punctuation**:
    - Parentheses `()`, Brackets `[]`, Braces `{}`, Colons `:`, Commas `,`, Period `.`
 
-### Lexer:
+### Lexer
+
 The lexer is responsible for tokenizing the input code into tokens.
 
-### Parser:
+### Parser
+
 The parser parses the tokenized code and builds an abstract syntax tree (AST) based on the grammar rules.
 
-### Compiler:
+### Compiler
+
 The compiler translates the AST into executable code, either machine code or bytecode.
 
-### Pyru Grammar Rules:
+### Pyru Grammar Rules
+
 1. **Conditional Statements**:
    - `if` condition `:` suite
    - `elif` condition `:` suite
@@ -67,14 +72,14 @@ The compiler translates the AST into executable code, either machine code or byt
    - `finally` `:` suite
 
 9. **Modules and Packages**:
-   - `import` module_name
-   - `require` library_name
+    - `import` module_name
+    - `require` library_name
 
 10. **Indentation and Blocks**:
-   - Use of indentation for code blocks, similar to Python.
-   - Use of `end` keyword to terminate code blocks, similar to Ruby.
+     - Use of indentation for code blocks, similar to Python.
+     - Use of `end` keyword to terminate code blocks, similar to Ruby.
 
-### Example Pyru Code:
+### Example Pyru Code
 
 ```pyru
 # Conditional Statement

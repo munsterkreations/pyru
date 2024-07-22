@@ -30,4 +30,3 @@ The project has the following dependencies:
 - isort: for import sorting
 
 To install these dependencies, run `pip install -r requirements.txt`.
-

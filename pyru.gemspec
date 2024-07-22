@@ -4,9 +4,9 @@ Gem::Specification.new do |spec|
   spec.name          = "pyru"
   spec.version       = "0.1.0"
   spec.authors       = ["munsterkreations"]
-  spec.email         = ["k7Gp7@example.com"]
+  spec.email         = ["104373517+munsterkreations@users.noreply.github.com"]
   spec.summary       = "Pyru-friendly interface for Ruby libraries"
-  spec.description   = "A Ruby gem that provides a Pyru-friendly interface for Ruby libraries."
+  spec.description   = "A Ruby gem that provides a Pyru-friendly interface for Ruby libraries and python libraries."
   spec.homepage      = "https://github.com/munsterkreations/pyru"
   spec.license       = "MIT"
 
@@ -17,7 +17,10 @@ Gem::Specification.new do |spec|
     "lib/pyru_python_bridge.rb",
     "lib/pyru_compiler.rb",
     "lib/pyru_parser.rb",
-    "lib/pyru_lexer.rb",
+    "lib/pyru_lexer.rb"
+    
+    # "lib/pyru/" python files
+
     "lib/pyru/__init__.py", 
     "lib/pyru/conversions.py",
     " lib/pyru/exceptions.py", 
@@ -34,6 +37,7 @@ Gem::Specification.new do |spec|
           "lib/pyru/syntax.py",
            "lib/pyru/test.py",
             "lib/pyru/tokens.py",
+            "setup.py",
 
 
   ]

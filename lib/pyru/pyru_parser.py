@@ -1,3 +1,6 @@
+import ast
+
+
 class PyruParser:
     def __init__(self, tokens):
         self.tokens = tokens
@@ -184,5 +187,5 @@ tokens = [
 ]
 
 parser = PyruParser(tokens)
-ast = parser.parse()
+ast = ast.parse()
 print(ast)

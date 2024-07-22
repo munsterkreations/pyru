@@ -1,4 +1,4 @@
-# pyru_examples.rb
+# pyru_examples.rb "~> 0.10"
 
 # Require the pyru_ruby_bridge gem
 require 'pyru_ruby_bridge'
