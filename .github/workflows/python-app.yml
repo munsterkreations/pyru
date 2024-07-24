@@ -1,4 +1,6 @@
-name: Pyru 
+#Python and Ruby librariesfor "/tree/main/lib" && "/tree/main/lib/pyru" and Dependencies installations from requirements.txt
+
+filename: Pyru 
 
 on:
   push:
