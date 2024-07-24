@@ -1,4 +1,6 @@
 # PYRU
+
+[![Gem Version](https://badge.fury.io/rb/pyru.svg)](https://badge.fury.io/rb/pyru)
 Pyru is a programming language that combines features of Python and Ruby.
 
 <img src="PYRU.png" alt="pyru-image" style="float: block; margin: auto; align-items:center;" />
