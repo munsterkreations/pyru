@@ -1,6 +1,6 @@
 ```
-C:\Users\munst\OneDrive\Desktop\pyru\
-│
+
+
 ├── bin\
 │   ├── env ruby.rb
 │   └── env ruby
