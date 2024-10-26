@@ -63,7 +63,7 @@ jobs:
 
       - name: Build Python package
         run: |
-          python __init__.py
+          python install requirements.txt
          
 
       - name: Set up Ruby
