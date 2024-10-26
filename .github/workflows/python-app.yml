@@ -63,7 +63,7 @@ jobs:
 
       - name: Build Python package
         run: |
-          python setup.py sdist
+          python __init__.py
          
 
       - name: Set up Ruby
