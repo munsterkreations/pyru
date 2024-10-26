@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
       "lib/pyru_python_bridge.rb",
       "lib/pyru_compiler.rb",
       "lib/pyru_parser.rb",
-      "lib/pyru_lexer.rb"]
+      "lib/pyru_lexer.rb"
     
   #"lib/pyru/" python files
 
@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
           "lib/pyru/syntax.py",
            "lib/pyru/test.py",
             "lib/pyru/tokens.py",
-            "setup.py",
+            "setup.py",}
 
   # Dependencies
   spec.add_dependency "rubygems", "~> 3.2"
