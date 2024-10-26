@@ -10,20 +10,20 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/munsterkreations/pyru"
   spec.license       = "MIT"
 
-  spec.files         = [
-    "lib/pyru.rb",
-    "lib/pyru_ruby_bridge.rb",
-    "lib/pyru_examples.rb",
-    "lib/pyru_python_bridge.rb",
-    "lib/pyru_compiler.rb",
-    "lib/pyru_parser.rb",
-    "lib/pyru_lexer.rb"
+  spec.files         = 
+    [ "lib/pyru.rb",
+      "lib/pyru_ruby_bridge.rb",
+      "lib/pyru_examples.rb",
+      "lib/pyru_python_bridge.rb",
+      "lib/pyru_compiler.rb",
+      "lib/pyru_parser.rb",
+      "lib/pyru_lexer.rb"]
     
-    # "lib/pyru/" python files
+  #"lib/pyru/" python files
 
     "lib/pyru/__init__.py", 
     "lib/pyru/conversions.py",
-    " lib/pyru/exceptions.py", 
+    "lib/pyru/exceptions.py", 
     "lib/pyru/forum.py", 
     "lib/pyru/pyru_compiler.py",
      "lib/pyru/pyru_examples.py",
@@ -39,8 +39,6 @@ Gem::Specification.new do |spec|
             "lib/pyru/tokens.py",
             "setup.py",
 
-
-  ]
   # Dependencies
   spec.add_dependency "rubygems", "~> 3.2"
   spec.add_dependency "rake", "~> 13.0"
