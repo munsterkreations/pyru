@@ -27,28 +27,28 @@ jobs:
     #   - https://gh.io/supported-runners-and-hardware-resources
     #   - https://gh.io/using-larger-runners (GitHub.com only)
     # Consider using larger runners or machines with greater resources for possible analysis time improvements.
-    runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
+    runs-on: ${{ (matrix.language == 'python' && 'ruby' && 'macos-latest') || 'ubuntu-latest' }}
     permissions:
       # required for all workflows
       security-events: write
 
       # required to fetch internal or private CodeQL packs
-      packages: read
+      packages: write  
 
       # only required for workflows in private repositories
-      actions: read
-      contents: read
+      actions: write
+      contents: write
 
     strategy:
       fail-fast: false
       matrix:
         include:
-        - language: javascript-typescript
-          build-mode: none
+        - language: html|css|javascript {framework}
+          build-mode: auto-build
         - language: python
-          build-mode: none
+          build-mode: auto-build
         - language: ruby
-          build-mode: none
+          build-mode: auto-build
         # CodeQL supports the following values keywords for 'language': 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift'
         # Use `c-cpp` to analyze code written in C, C++ or both
         # Use 'java-kotlin' to analyze code written in Java, Kotlin or both
@@ -80,7 +80,7 @@ jobs:
     # to build your code.
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
-    - if: matrix.build-mode == 'manual'
+    - if: matrix.build-mode == 'autobuild'
       shell: bash
       run: |
         echo 'If you are using a "manual" build mode for one or more of the' \
