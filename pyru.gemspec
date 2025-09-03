@@ -15,10 +15,10 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.0"
 
   # Files included in the gem
-  spec.files = Dir.glob("lib/**/*") + ["setup.py", "pyru/ext/extconf.rb"]
+  spec.files = Dir.glob("lib/**/*") + ["setup.py", "lib/pyru/ext/extconf.rb"]
 
   # Ensure Python check runs during install
-  spec.extensions = ["pyru/ext/extconf.rb"]
+  spec.extensions = ["lib/pyru/ext/extconf.rb"]
 
   # Runtime dependencies
   spec.add_dependency "rake", "~> 13.0"
@@ -38,5 +38,6 @@ Gem::Specification.new do |spec|
     "required_ruby"     => ">= 3.0"
   }
 end
+
 
 
