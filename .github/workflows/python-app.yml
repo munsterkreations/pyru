@@ -35,17 +35,17 @@ jobs:
   setup-ruby:
        runs-on: ubuntu-latest
        steps:
-       - name: Set up Ruby
-         uses: ruby/setup-ruby@v1
-         with:
-          ruby-version: '3.1'
-       
-       - name: Lint Ruby code
-         run: |
+        - name: Set up Ruby
+          uses: ruby/setup-ruby@v1
+          with:
+            ruby-version: ${{ matrix.ruby-version }}
+            bundler-cache: true # installs and caches gems automatically
+        - name: Lint Ruby code
+          run: |
           # Add linting command for Ruby if needed
 
-       - name: Run Ruby tests
-         run: |
+        - name: Run Ruby tests
+          run: |
           # Add test command for Ruby if needed
 
   build-and-publish:
