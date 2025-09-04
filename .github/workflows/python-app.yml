@@ -74,17 +74,8 @@ jobs:
         run: |
           gem build pyru.gemspec
 
-      - name: Publish Python package to PyPI
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-          user: __token__
-          password: ${{ secrets.PYPI_API_TOKEN }}
-          repository_url: https://upload.pypi.org/legacy/
+  
 
-      - name: Publish Ruby gem to RubyGems
-        run: gem push your_gem_name-version.gem
-        env:
-          RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
   
     
          
