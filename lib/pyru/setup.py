@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Pyru',  # Replace 'your_package_name' with the name of your package
+    name='pyru',  # Replace 'your_package_name' with the name of your package
     version='0.1.0',  # Replace '0.1.0' with the version number of your package
     packages=find_packages(),  # Automatically discover and include all Python packages
     install_requires=[],  # List any dependencies your package requires
